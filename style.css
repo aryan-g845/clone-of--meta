@@ -1,0 +1,86 @@
+title{
+    padding-left: 30px;
+    align-items: center;
+}
+.boxx{
+    width: 100%;
+    padding: 10px 30px;
+    margin: 8px 0;
+    border: 1px solid #301f1f;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+}
+.log{
+    font-size: 20px;
+    font-family:"Lucida Handwriting", cursive;
+    padding-left: 20px;
+   
+    padding-bottom: 20px;
+}
+.logoname{
+                display: flex;
+                border: 20px #ff0000;
+                padding-left: 600px;
+                font-size: 20px;
+                font-family: Arial, sans-serif;
+                padding-top: 100px;
+}
+.LIST{
+    list-style: none;
+    padding: 0;
+    list-style-position: inside;
+
+}
+.LIST li{
+    display: inline-block;
+    margin-right: 10px;
+    transition: width 1.5s, height 1.5s, transform 0.5s;
+
+}
+.form{
+    justify-self: center;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    
+}
+.dd{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.nav{
+    justify-self: center;
+    height: 580px;
+    width: 40%;
+    margin: 0px;
+    background-color: rgb(221, 229, 246);
+    border-radius:20px ;
+    box-shadow: 2px 2px 80px 20px  rgb(87, 100, 100);
+}
+
+                
+.LIST li:hover{
+    
+    transform: scale(1.5);
+    
+}
+.align{
+    align-self: center;
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+.logining{ 
+    padding: 12px 100px;
+    background-color: #144777;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: width 1s, height 1s, transform 1s;
+}
+.logining:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+}
